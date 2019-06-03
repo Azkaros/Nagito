@@ -269,3 +269,8 @@ input[type="button"]:hover span:after {
   opacity: 1;
   right: 0;
 }
+
+.fin {
+  position : absolute;
+  bottom : 0px;
+}

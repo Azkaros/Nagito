@@ -5,7 +5,7 @@ body {
 }
 
 h1.title {
-	font-size: 32px;
+	font-size: 38px;
 	font-family: 'Roboto Mono', monospace;
 	text-shadow: initial;
   background: -webkit-linear-gradient(#4ECDC4, #556270);
@@ -19,7 +19,7 @@ h1.title {
 		overflow: hidden;
 		box-shadow: 4px 4px 15px #333333;
 		border: 10px solid;
-    border-color: #D92A2A;
+    border-color: #424558;
 
 	}
 	.slides {
@@ -179,6 +179,8 @@ nav > ul > li:hover a{
   text-shadow: initial;
 }
 
+/*END NAVBAR*/
+
 .indexmsg{
   font-size: 16px;
   font-family: 'Roboto Mono', monospace;
@@ -199,18 +201,13 @@ nav > ul > li:hover a{
 
 img.pannel {
   border: 7px solid;
-  border-color: #D92A2A;
-}
-
-p.metitlemsg {
-  color: #89253e;
-  font-size: 32px;
-  font-family: 'Roboto Mono', monospace;
+  border-color: #424558;
+  box-shadow: 4px 4px 15px #333333;
 }
 
 p.msg {
   color: #3a6186;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -273,4 +270,5 @@ input[type="button"]:hover span:after {
 .fin {
   position : absolute;
   bottom : 0px;
+  right: 10px;
 }

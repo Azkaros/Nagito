@@ -256,5 +256,5 @@ input[type="button"]:hover span:after {
 
 .socialnetworklogo:hover{
 	transition-duration: 1s;
-	transform: rotate(660deg);
+	transform: rotate(720deg);
 }

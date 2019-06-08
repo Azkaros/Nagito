@@ -243,9 +243,10 @@ input[type="button"]:hover span:after {
 }
 
 .fin {
-  bottom : 0;
+  position:absolute;
+  bottom:0;
+  padding-top:50px;
   right: 10px;
-  float: right;
 }
 
 .socialnetworklogo {

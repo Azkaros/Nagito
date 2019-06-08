@@ -29,7 +29,7 @@ h1.title {
 	.slide {
 		float: left;
 	}
-		
+
 @keyframes glisse {
 		0% {
 			transform: translateX(0);
@@ -58,8 +58,7 @@ h1.title {
 	width: calc(560px * 3);
 	height: 315px;
 	margin: 70px auto;
-
-	}
+}
 
 img.meimg {
 	border: 10px solid;
@@ -73,20 +72,16 @@ nav > ul {
   margin: 0px;
   padding: 0px;
 }
-
 nav > ul > li{
   float: left;
   position: relative;
 }
-
 nav li{
   list-style-type: none;
 }
-
 .submenu {
   display: none;
 }
-
 nav li:hover .submenu{
   display: inline-block;
   position: absolute;
@@ -95,44 +90,36 @@ nav li:hover .submenu{
   padding: 0px;
   z-index: 100000;
 }
-
 nav{
   width: 100%;
   background-color: #424558;
 }
-
 nav > ul::after{
   content: "";
   display: block;
   clear: both;
 }
-
 nav a{
   display: inline-block;
   text-decoration: none;
 }
-
 nav > ul > li >a{
   padding: 20px 30px;
   color: #fff;
 }
-
 .submenu li {
   border-bottom: 1px solid #CCC;
 }
-
 .submenu li a{
   padding: 15px 30px;
   font-size: 13px;
   color:#222538;
   width: 270px;
 }
-
 .menu-index:hover{
   border-top: 5px solid #e44d26;
   background-color: rgba(228, 77, 38, 0.15);
 }
-
 .menu-project:hover{
   border-top: 5px solid #0070bb;
   background-color: rgba(000, 112, 192, 0.15);
@@ -141,44 +128,35 @@ nav > ul > li >a{
   border-top: 5px solid #BBB;
   background-color: rgba(220, 220, 220, 0.15);
 }
-
 nav > ul > li:hover a{
   padding: 15px 30px 20px 30px;
 }
-
 .menu-index .submenu{
   background-color: rgb(230, 100, 40);
 }
-
 .menu-project .submenu{
   background-color: rgb(000, 160, 240);
 }
 .menu-me .submenu{
   background-color: rgb(251, 216, 99);
 }
-
 .submenu li:hover a{
   color:#EEE;
   font-weight:bold;
 }
-
 .menu-index .submenu li:hover{
   background-color: rgb(210, 77, 60);
 }
-
 .menu-project .submenu li:hover{
   background-color: rgb(000, 115, 200);
 }
-
 .menu-me .submenu li:hover{
   background-color: rgb(200, 165, 75);
 }
-
 .menu-text{
   font-family: 'Roboto Mono', monospace;
   text-shadow: initial;
 }
-
 /*END NAVBAR*/
 
 .indexmsg{
@@ -209,6 +187,7 @@ p.msg {
   color: #3a6186;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
+  text-decoration: false;
 }
 
 .roundedImage{
@@ -218,10 +197,6 @@ p.msg {
     border-radius:50px;
     width:290px;
     height:290px;
-}
-
-a {
-  text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
@@ -271,4 +246,15 @@ input[type="button"]:hover span:after {
   position : absolute;
   bottom : 0px;
   right: 10px;
+}
+
+.socialnetworklogo {
+	width:52px;
+	height:52px;
+	border:none;
+}
+
+.socialnetworklogo:hover{
+	transition-duration: 1s;
+	transform: rotate(660deg);
 }

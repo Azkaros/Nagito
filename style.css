@@ -2,7 +2,7 @@ body {
   width: 100wh;
   height: 90vh;
   color: #fff;
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
@@ -49,7 +49,7 @@ h1.title {
 	font-size: 38px;
 	font-family: 'Roboto Mono', monospace;
 	text-shadow: initial;
-  background: -webkit-linear-gradient(#4ECDC4, #556270);
+  background: -webkit-linear-gradient(45deg, #0f0c29, #302b63, #24243e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -60,13 +60,14 @@ h1.title {
 		overflow: hidden;
 		box-shadow: 4px 4px 15px #333333;
 		border: 10px solid;
-    border-color: #424558;
-
+    border-image-source:linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    border-image-slice: 1;
 	}
 	.slides {
 		width: calc(560px * 3);
 		animation: glisse 15s infinite;
 	}
+
 	.slide {
 		float: left;
 	}
@@ -101,11 +102,6 @@ h1.title {
 	margin: 70px auto;
 }
 
-img.meimg {
-	border: 10px solid;
-	border-color: #D92A2A;
-}
-
 
 /*NAVBAR*/
 
@@ -133,7 +129,7 @@ nav li:hover .submenu{
 }
 nav{
   width: 100%;
-  background-color: #424558;
+  background-image:linear-gradient(45deg, #0f0c29, #302b63, #24243e)
 }
 nav > ul::after{
   content: "";
@@ -159,14 +155,20 @@ nav > ul > li >a{
 }
 .menu-index:hover{
   border-top: 5px solid #e44d26;
+  border-image-source: linear-gradient(45deg, #649173, #DBD5A4);
+  border-image-slice: 1;
   background-color: rgba(228, 77, 38, 0.15);
 }
 .menu-project:hover{
   border-top: 5px solid #0070bb;
+  border-image-source: linear-gradient(45deg, #B993D6, #8CA6DB);
+  border-image-slice: 1;
   background-color: rgba(000, 112, 192, 0.15);
 }
 .menu-me:hover{
   border-top: 5px solid #BBB;
+  border-image-source: linear-gradient(45deg, #f2709c, #ff9472);
+  border-image-slice: 1;
   background-color: rgba(220, 220, 220, 0.15);
 }
 nav > ul > li:hover a{
@@ -200,15 +202,6 @@ nav > ul > li:hover a{
 }
 /*END NAVBAR*/
 
-.indexmsg{
-  font-size: 16px;
-  font-family: 'Roboto Mono', monospace;
-  text-shadow: initial;
-  background: -webkit-linear-gradient(#18F5C3, #18A8F5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -219,13 +212,16 @@ nav > ul > li:hover a{
 }
 
 img.pannel {
-  border: 7px solid;
-  border-color: #424558;
+  border: 10px solid;
+  border-image-source:linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+  border-image-slice: 1;
   box-shadow: 4px 4px 15px #333333;
 }
 
 p.msg {
-  color: #3a6186;
+  background: -webkit-linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
   text-decoration: false;
@@ -241,47 +237,6 @@ p.msg {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-
-input[type="button"] {
-  display: inline-block;
-  border-radius: 4px;
-  background-color:#C0C0C0;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 12px;
-  font-family: 'Roboto Mono', monospace;
-  padding: 7px;
-  width: 60px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-input[type="button"] span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-input[type="button"] span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-input[type="button"]:hover span {
-  padding-right: 25px;
-}
-
-input[type="button"]:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 
 .fin {
   position: absolute;

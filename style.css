@@ -240,8 +240,8 @@ p.msg {
 
 .fin {
   bottom:0;
-  height:50px;
-  float: right;
+  position: absolute;
+  right:0;
 }
 
 .socialnetworklogo {
@@ -254,10 +254,6 @@ p.msg {
 	transition-duration: 1s;
 	transform: rotate(720deg);
 }
-
-
-
-
 
 h2,
 p,

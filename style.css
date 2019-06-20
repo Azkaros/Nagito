@@ -235,13 +235,22 @@ p.msg {
     width:290px;
     height:290px;
 }
+.roundedImage2{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:640px;
+    height:360px;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 .fin {
-  bottom:0;
-  position: absolute;
-  right:0;
+  position:fixed;
+  bottom:1%;
+  right:1%;
+  z-index:9999;
 }
 
 .socialnetworklogo {
@@ -255,9 +264,7 @@ p.msg {
 	transform: rotate(720deg);
 }
 
-h2,
-p,
-a {
+h2,p,a {
   font-family: 'roboto', sans-serif;
 }
 

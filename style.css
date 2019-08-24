@@ -9,8 +9,8 @@ body {
 }
 
 h1.title {
-	font-size: 38px;
-	text-shadow: initial;
+  font-size: 38px;
+  text-shadow: initial;
   background: -webkit-linear-gradient(45deg, #9CECFB, #65C7F7, #0052D4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -35,33 +35,33 @@ h1.title {
 }
 
 @keyframes glisse {
-		0% {
-			transform: translateX(0);
-		}
-		10% {
-			transform: translateX(0);
-		}
-		33% {
-			transform: translateX(-560px);
-		}
-		43% {
-			transform: translateX(-560px);
-		}
-		66% {
-			transform: translateX(-1120px);
-		}
-		76% {
-			transform: translateX(-1120px);
-		}
-		100% {
-			transform: translateX(0);
-		}
+  0% {
+	transform: translateX(0);
+}
+  10% {
+	transform: translateX(0);
+}
+  33% {
+	transform: translateX(-560px);
+}
+  43% {
+	transform: translateX(-560px);
+}
+  66% {
+	transform: translateX(-1120px);
+}
+  76% {
+	transform: translateX(-1120px);
+}
+  100% {
+	transform: translateX(0);
+}
 	}
 
 .animate-bottom {
-	width: calc(560px * 3);
-	height: 315px;
-	margin: 70px auto;
+  width: calc(560px * 3);
+  height: 315px;
+  margin: 70px auto;
 }
 
 
@@ -175,22 +175,22 @@ p.msg {
 }
 
 .roundedImage{
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:290px;
-    padding:5px;
-    height:290px;
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width:290px;
+  padding:5px;
+  height:290px;
 }
 .roundedImage2{
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    padding:5px;
-    border-radius:50px;
-    width:640px;
-    height:360px;
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  padding:5px;
+  border-radius:50px;
+  width:640px;
+  height:360px;
 }
 
 
@@ -214,15 +214,18 @@ p,h1,a{
 /*SOCIAL*/
 
 .socialnetworklogo {
-	width:52px;
-	height:52px;
-	border:none;
+  width:52px;
+  height:52px;
+  border:none;
 }
 
 .socialnetworklogo:hover{
-	transition-duration: 1s;
-	transform: rotate(720deg);
+  transition-duration: 1s;
+  transform: rotate(720deg);
 }
+
+
+/*End of social*/
 
 a {
   text-decoration: none;

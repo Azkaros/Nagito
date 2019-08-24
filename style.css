@@ -248,15 +248,12 @@ a {
 
 /*DIV TITLE*/
 
-div.div2{
+.div2{
+  position: absolute;
+  z-index: 2;
+}
+
+.div1{
   position: relative;
+  z-index: 1;
 }
-
-.title-index {
-  position: absolute;
-}
-
-.img-index {
-  position: absolute;
-}
-

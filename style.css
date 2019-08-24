@@ -10,7 +10,6 @@ body {
 
 h1.title {
 	font-size: 38px;
-	font-family: 'Roboto Mono', monospace;
 	text-shadow: initial;
   background: -webkit-linear-gradient(45deg, #9CECFB, #65C7F7, #0052D4);
   -webkit-background-clip: text;
@@ -161,7 +160,6 @@ nav > ul > li:hover a{
   background-color: rgb(200, 165, 75);
 }
 .menu-text{
-  font-family: 'Roboto Mono', monospace;
   text-shadow: initial;
 }
 /*END NAVBAR*/
@@ -173,7 +171,6 @@ p.msg {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
   text-decoration: false;
 }
 
@@ -196,7 +193,15 @@ p.msg {
     height:360px;
 }
 
+
+
+/*FONT*/
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+p, h1, a{
+	font-family: 'Press Start 2P';
+}
 
 .fin {
   position:fixed;

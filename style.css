@@ -251,9 +251,13 @@ a {
 .div2{
   position: absolute;
   z-index: 2;
+  text-align: center
 }
 
 .div1{
   position: relative;
   z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }

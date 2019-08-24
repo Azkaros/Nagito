@@ -90,6 +90,7 @@ nav li:hover .submenu{
   padding: 0px;
   z-index: 100000;
 }
+/*
 nav{
   width: 100%;
   background-image:linear-gradient(45deg, #9CECFB, #65C7F7, #0052D4)
@@ -99,6 +100,7 @@ nav{
   padding:5px;
   border-radius:50px;  
 }
+*/
 nav > ul::after{
   content: "";
   display: block;

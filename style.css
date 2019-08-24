@@ -245,3 +245,15 @@ p,h1,a{
 a {
   text-decoration: none;
 }
+
+/*DIV TITLE*/
+
+div.div2{
+  position: absolute;
+  z-index: 4;
+}
+
+div.div1{
+  position: absolute;
+  z-index: 2;
+}

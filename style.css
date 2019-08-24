@@ -200,7 +200,7 @@ p.msg {
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 p, h1, a{
-	font-family: 'Press Start 2P';
+  font-family: 'Press Start 2P', cursive;
 }
 
 .fin {

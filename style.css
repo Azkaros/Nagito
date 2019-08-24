@@ -249,15 +249,14 @@ a {
 /*DIV TITLE*/
 
 div.div2{
-  position: absolute;
-  z-index: 4;
-  margin: 0 auto;
-  width: 100px; 
+  position: relative;
 }
 
-div.div1{
+.title-index {
   position: absolute;
-  z-index: 2;
-  margin: 0 auto;
-  width: 100px;
 }
+
+.img-index {
+  position: absolute;
+}
+

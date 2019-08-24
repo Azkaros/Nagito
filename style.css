@@ -21,7 +21,6 @@ h1.title {
   width: 560px;
   height: 315px;
   overflow: hidden;
-  box-shadow: 4px 4px 15px #333333;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
@@ -183,14 +182,12 @@ p.msg {
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px;
-    box-shadow: 4px 4px 15px #333333;
     width:290px;
     padding:5px;
     height:290px;
 }
 .roundedImage2{
     overflow:hidden;
-    box-shadow: 4px 4px 15px #333333;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     padding:5px;

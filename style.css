@@ -185,6 +185,7 @@ p.msg {
     border-radius:50px;
     box-shadow: 4px 4px 15px #333333;
     width:290px;
+    padding:5px;
     height:290px;
 }
 .roundedImage2{
@@ -192,6 +193,7 @@ p.msg {
     box-shadow: 4px 4px 15px #333333;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
+    padding:5px;
     border-radius:50px;
     width:640px;
     height:360px;

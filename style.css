@@ -3,6 +3,7 @@ body {
   height: 90vh;
   color: #fff;
   background-image: url("img/cool-background.png");
+  background-size: cover;
 }
 
 h1.title {

@@ -25,18 +25,16 @@ h1.title {
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
-  /*border-image-source:linear-gradient(45deg, #9CECFB, #65C7F7, #0052D4);
-  border: 10px solid;*/
   border-image-slice: 1;
-	}
-	.slides {
-		width: calc(560px * 3);
-		animation: glisse 15s infinite;
-	}
+}
+.slides {
+  width: calc(560px * 3);
+  animation: glisse 15s infinite;
+}
 
-	.slide {
-		float: left;
-	}
+.slide {
+  float: left;
+}
 
 @keyframes glisse {
 		0% {
@@ -185,11 +183,13 @@ p.msg {
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px;
+    box-shadow: 4px 4px 15px #333333;
     width:290px;
     height:290px;
 }
 .roundedImage2{
     overflow:hidden;
+    box-shadow: 4px 4px 15px #333333;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px;

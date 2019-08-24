@@ -9,7 +9,7 @@ h1.title {
 	font-size: 38px;
 	font-family: 'Roboto Mono', monospace;
 	text-shadow: initial;
-  background: -webkit-linear-gradient(45deg, #fffbd5, #b20a2c);
+  background: -webkit-linear-gradient(45deg, #9CECFB, #65C7F7, #0052D4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

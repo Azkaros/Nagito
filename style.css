@@ -196,12 +196,20 @@ p.msg {
 
 
 /*FONT*/
+
+/*
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
+*/
+
+@font-face {
+    font-family: 'VCR_OSD_MONO';
+    src: url('fonts/VCR_OSD_MONO_1.001.ttf');
+}
 
 p,h1,a{
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'VCR_OSD_MONO';
 }
 
 .fin {

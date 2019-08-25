@@ -48,7 +48,7 @@ nav{
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   padding:5px;
-  border-radius:50px;  
+  border-radius:50px;
 }
 */
 nav > ul::after{
@@ -155,12 +155,6 @@ p.msg {
 
 /*FONT*/
 
-/*
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
-*/
-
 @font-face {
     font-family: 'VCR_OSD_MONO';
     src: url('fonts/VCR_OSD_MONO_1.001.ttf');
@@ -176,6 +170,8 @@ p,h1,a{
   right:1%;
   z-index:9999;
 }
+
+
 
 /*SOCIAL*/
 
@@ -193,22 +189,8 @@ p,h1,a{
 
 /*End of social*/
 
+
+
 a {
   text-decoration: none;
-}
-
-/*DIV TITLE*/
-
-.div2{
-  position: absolute;
-  z-index: 2;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
-.div1{
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
 }

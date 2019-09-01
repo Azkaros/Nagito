@@ -40,6 +40,7 @@ nav li:hover .submenu{
   padding: 0px;
   z-index: 100000;
 }
+
 /*
 nav{
   width: 100%;
@@ -51,6 +52,7 @@ nav{
   border-radius:50px;
 }
 */
+
 nav > ul::after{
   content: "";
   display: block;
@@ -143,10 +145,10 @@ p.msg {
 }
 .roundedImage2{
   overflow:hidden;
-  -webkit-border-radius:50px;
-  -moz-border-radius:50px;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
   padding:5px;
-  border-radius:50px;
+  border-radius:15px;
   width:540px;
   height:300px;
 }

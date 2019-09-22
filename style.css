@@ -140,14 +140,15 @@ p.msg {
   -moz-border-radius:50px;
   border-radius:50px;
   width:290px;
-  padding:5px;
+  padding:3px;
   height:290px;
 }
+
 .roundedImage2{
   overflow:hidden;
   -webkit-border-radius:15px;
   -moz-border-radius:15px;
-  padding:5px;
+  padding:3px;
   border-radius:15px;
   width:540px;
   height:300px;
@@ -207,3 +208,5 @@ a {
 	margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
   font-size: 28px;
 }
+
+

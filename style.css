@@ -189,10 +189,7 @@ p,h1,a{
   transform: rotate(720deg);
 }
 
-
 /*End of social*/
-
-
 
 a {
   text-decoration: none;
@@ -209,4 +206,35 @@ a {
   font-size: 28px;
 }
 
+/*Typing Effect*/
 
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 0.74 normal both,
+             blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.line-1{
+    position: absolute;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    margin-left: -100px;
+    margin-top: -100px;
+    top: 55%;
+    left: 40%;
+    font-size: 28px;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}

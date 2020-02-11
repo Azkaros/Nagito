@@ -154,6 +154,16 @@ p.msg {
   height:300px;
 }
 
+.roundedImage3{
+  overflow:hidden;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  border-radius:20px;
+  width:290px;
+  padding:3px;
+  height:290px;
+}
+
 
 
 /*FONT*/
